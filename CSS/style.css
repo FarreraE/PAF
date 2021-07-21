@@ -1,0 +1,84 @@
+body{
+    color: #006EFF;
+    background-color: #F2F4FF;
+    padding: 5%;
+    font-family: 'tef';
+    font-size: 1rem;
+}
+@font-face {
+    font-family: 'tef';
+    src: url('../CSS/fonts/TTHoves-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'tefBold';
+    src: url('../css/fonts/TTHoves-Bold.ttf');
+  }
+.headerLogo{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    height: 150px;
+    padding: 1%;
+}
+.logo{
+    transform: scale(0.5);
+}
+p{
+    color: #ff0000;
+    font-weight: bolder;
+    font-size: 1rem;
+    margin-top: 2%;
+}
+h1{
+   
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: bolder;
+    font-size: 6rem;
+    transform: scale(1.2);
+    
+}
+label{
+    font-family: 'tefBold';
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+.form-control,.form-check-input{
+    border-color: #006EFF ;
+    margin-top: 0.5%;
+}
+.conExtra{
+    margin-top: 1%;
+}
+
+.form-group,.form-check{
+    margin-top: 1.1%;
+}
+.btn{
+    color: #006EFF;
+    border: none;
+    background-color: #F2F4FF;
+    font-weight: bolder;
+    font-size: 1.4rem;
+    font-family: 'Rubik', monospace;
+    margin-top: 1.5%;
+ 
+}
+.bright{
+    float: right;
+}
+
+.btn:hover{
+    color: #ffffff; 
+    background-color: #006EFF ;
+    font-weight: bolder;
+
+    
+}
+.resume{
+    margin-top: 2%;
+    background-color: white ;
+    border: #006EFF solid 2px;
+    border-radius: 5px;
+    padding: 1%;
+    padding-bottom: 5%;
+}
