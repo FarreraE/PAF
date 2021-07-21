@@ -11,7 +11,7 @@ body{
   }
   @font-face {
     font-family: 'tefBold';
-    src: url('../css/fonts/TTHoves-Bold.ttf');
+    src: url('../CSS/fonts/TTHoves-Bold.ttf');
   }
 .headerLogo{
     display: flex;
