@@ -1,3 +1,7 @@
+var form = document.getElementById("FORM");
+function handleForm(event) { event.preventDefault(); } 
+form.addEventListener('submit', handleForm);
+
 document.addEventListener('DOMContentLoaded', function () {
 
     //Secciones
