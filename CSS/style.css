@@ -4,6 +4,7 @@ body{
     padding: 5%;
     font-family: 'tef';
     font-size: 1rem;
+    max-width: 1200px; 
 }
 @font-face {
     font-family: 'tef';
